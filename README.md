@@ -9,5 +9,3 @@
 npm run install
 node index.js
 ```
-
-Then you can import the Insomnia data file (named `insomnia_requests.json) and test the APIs.
