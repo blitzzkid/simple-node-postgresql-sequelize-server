@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
-const UserModel = require("./models/user");
-const BlogModel = require("./models/blog");
-const TagModel = require("./models/tag");
+const UserModel = require("./models/User");
+const BlogModel = require("./models/Blog");
+const TagModel = require("./models/Tag");
 
 //const sequelize = new Sequelize("postgres://postgres:password@localhost:5432/test-db-1")
 const sequelize = new Sequelize("postgres://localhost:5432/test-db-1");
